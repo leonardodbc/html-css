@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fontes/BebasKai.otf') format('opentype');
+}
+
+body {
+    text-align: justify;
+    margin: 0;
+    background-color: #84E1AD;
+}
+
+aside {
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    background-color: #83E1AD;
+    }
+
+img {
+    display: block;
+    margin: auto;
+}
+
+strong {
+    color: #106e3c;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0px 10px;
+    font-size: 1.75em;
+    padding: 5px;
+    text-align: left;
+    font-family: 'android';
+    color: #207e31;
+}
+
+h3 {
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:#1A5C37;
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px 10px;
+    padding: 15px;
+}
+
+header#cab {
+    background-image: linear-gradient(to top, #023A1C, #2aa55fda);
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+}
+
+h1#title {
+    font-family: 'bebas', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding: 20px 50px;
+    margin: auto;
+}
+
+h2#subt {
+    font-family: 'bebas', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0px 50px 30px 50px;
+    font-size: 1.2em;
+    margin: auto;
+    width: auto;
+}
+
+main#main {
+    margin: 0px 100px 50px 100px;
+    display: block;
+    width: auto;
+    background-color: white;
+}
+
+footer#footer {
+    background-color: #164e2e;
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+.sub {
+    margin: 0px 20px 0px 20px;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.719), white 57%);
+}
+
+.link {
+    background-color: rgba(128, 228, 128, 0.801);
+    text-decoration: none;
+    font-weight: bold;
+    color: #207e31;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link::after {
+    content: "🔗";
+}
+
+.linkh {
+    color: white;
+    margin: 0px 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 0.75em;    
+}
+
+.linkh:hover {
+    background-color: rgba(124, 206, 124, 0.623);
+    color: rgb(9, 46, 9);
+    border-radius: 5px;
+}
