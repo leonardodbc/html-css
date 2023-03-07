@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrounauta</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            height: 100vh;
+            background: black url(espaco.jpg) center no-repeat fixed;
+            background-size: cover;
+        }
+
+        #astro {
+            background-image: url(astronauta.png);
+            background-size: cover;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #astro:hover {
+            background-image: url(astronauta.png);
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="astro"></div>
+    </main>
+</body>
+</html>
