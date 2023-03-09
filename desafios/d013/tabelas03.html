@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        } 
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+            color: white;
+            background-color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr.fem {
+            background-color: rgb(255, 183, 217);
+        }
+
+        tr.masc {
+            background-color: rgb(217, 236, 253);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr id="tit">
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="fem">
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Julia Barbosa</td>
+                <td>Alien</td>
+                <td>Titanic</td>
+                <td>Rambo</td>
+            </tr>
+            <tr class="fem">
+                <td>Maria Rosemar</td>
+                <td>Hulk</td>
+                <td>Batman</td>
+                <td>Frozen</td>
+            </tr>
+            <tr class="fem">
+                <td>Maria Amália</td>
+                <td>Matrix</td>
+                <td>Homem-Aranha</td>
+                <td>Mulher Maravilha</td>
+            </tr>
+            <tr class="masc">
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Leonardo Cardoso</td>
+                <td>Toy Story</td>
+                <td>Vingadores</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr class="masc">
+                <td>Sami Hermas</td>
+                <td>Star Wars</td>
+                <td>Harry Potter</td>
+                <td>Star Trek</td>
+            </tr>
+            <tr class="masc">
+                <td>Rogério Cardoso</td>
+                <td>Megamente</td>
+                <td>Dr. Estranho</td>
+                <td>As Branquelas</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
