@@ -4,3 +4,5 @@
 Estou aprendendo a criar sites e vou ser um desenvolvedor!
 
 <a href="https://leonardodbc.github.io/projeto-android"> Projeto android <a>
+
+<a href="https://leonardodbc.github.io/projeto-cordel"> Projeto cordel <a>
