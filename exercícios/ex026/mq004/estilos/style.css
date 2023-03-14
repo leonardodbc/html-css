@@ -34,31 +34,17 @@ main {
 h1 {
     text-align: center;
     color: antiquewhite;
-    font-size: 2em;
+    font-size: 8vw;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.623);
 }
 
 img {
-    display: block;
+display: block;
     margin: auto;
 }
 
-img#phone {
-    display: block;
-}
-
-img#tablet {
-    display: none;
-}
-
-img#print {
-    display: none;
-}
-
-img#pc {
-    display: none;
-}
-
-img#tv {
-    display: none;
-}
+img#phone {display: block;}
+img#tablet {display: none;}
+img#print {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
