@@ -15,12 +15,12 @@ body {
 }
 
 header {
-    padding: 20px;
+
     background-color: rgb(33, 196, 250);
 }
 
 header > h1 {
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: center;
     color: white;
     font-size: 3em;
